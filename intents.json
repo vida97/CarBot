@@ -1,0 +1,69 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","hey"],
+         "responses": ["Hello! what type of cars would you like to see", "Good to see you again! tell me what you want", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+	{"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","who are you","who am I talking to"],
+         "responses": ["You can call me Carbot.", "I'm Carbot!", "Carbot is fine"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Carbot", "what is your age", "how old are you", "age?"],
+         "responses": ["Not too young not too old!", "age is just a number and I dont like numbers."],
+         "context_set": ""
+        },
+	{"tag": "user_rsp_good",
+         "patterns": ["nice", "cool", "i like it", "great", "good"],
+         "responses": ["Not too young not too old!", "age is just a number and I dont like numbers."],
+         "context_set": ""
+        },
+	{"tag": "user_rsp_bad",
+         "patterns": ["not nice", "bad", "i dont like it", "i hate it", "shit"],
+         "responses": ["Sorry if you didnt like it", "soory about that, is there something else you want to see"],
+         "context_set": ""
+        },
+        {"tag": "sportscar",
+         "patterns": ["sportscar","sports"],
+         "responses": ["Awesome! here are some sportscars for you", "Cool, I can get those sportscars.", "Well, you might like some of these"],
+         "context_set": ""
+        },
+	{"tag": "supercar",
+         "patterns": ["supercar","super"],
+         "responses": ["Awesome! here are some supercars for you", "Cool, I can get those supercars.", "Well, you might like some of these"],
+         "context_set": ""
+        },
+	{"tag": "hypercar",
+         "patterns": ["hypercar","hyper"],
+         "responses": ["Awesome! here are some hypercars for you", "Cool, I can get those hypercars.", "Well, you might like some of these"],
+         "context_set": ""
+        },
+	{"tag": "luxcar",
+         "patterns": ["luxury car", "luxury sedan", "expensive car", "sedan","nice"],
+         "responses": ["Awesome! here are some nice cars for you", "Cool, I can get those nice cars for you.", "Well, you might like some of these"],
+         "context_set": ""
+        },
+	{"tag": "luxsuv",
+         "patterns": ["luxury suv", "suv", "big luxury"],
+         "responses": ["Awesome! here are some nice SUVs for you", "Cool, I can get those. SUVs", "Well, you might like some of these"],
+         "context_set": ""
+        },
+	{"tag": "pick_up",
+         "patterns": ["pick up"],
+         "responses": ["Awesome! here are some great pick ups for you", "Cool, I can get those pick ups for you.", "Well, you might like some of these"],
+         "context_set": ""
+        },
+	{"tag": "hatchback",
+         "patterns": ["hatchback","small"],
+         "responses": ["Awesome! here are some great pick ups for you", "Cool, I can get those small cars for you.", "Well, you might like some of these"],
+         "context_set": ""
+        }
+        
+   ]
+}
